@@ -1,0 +1,22 @@
+.controlPanel {
+	display: flex;
+	gap: 20px;
+	&_item {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+		text-decoration: none;
+		color: #181818;
+		font-size: 20px;
+
+		.img {
+			&_icon {
+				width: 20px;
+			}
+		}
+
+		& > img {
+			transform: translateY(1px);
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.post {
+	width: 100%;
+	padding: 10px 0;
+	background-color: darken($color: #fff, $amount: 2%);
+	border-radius: 20px;
+	transition: 0.3s;
+	&:hover {
+		transform: scale(1.03);
+		background-color: darken($color: #fff, $amount: 7%);
+	}
+
+	& > img {
+		width: 260px;
+	}
+}
+
+.bottom {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 36px;
+
+	.price {
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 27px;
+		letter-spacing: 0.015em;
+	}
+}

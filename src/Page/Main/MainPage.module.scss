@@ -1,0 +1,13 @@
+@import '../../scss/variables';
+
+.wrapper {
+	margin-top: 36px;
+	padding: 0 70px;
+	display: grid;
+	grid-template-columns: (repeat(3, 1fr));
+	justify-items: center;
+	justify-content: center;
+	text-align: center;
+	column-gap: 60px;
+	row-gap: 35px;
+}
